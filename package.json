@@ -9,11 +9,22 @@
     "type": "git",
     "url": "git+https://github.com/TavernierAlicia/travis_example.git"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!data/keyMap.js",
+      "!/node_modules/"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TavernierAlicia/travis_example/issues"
   },
   "homepage": "https://github.com/TavernierAlicia/travis_example#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "coveralls": "^3.0.9",
+    "save-dev": "0.0.1-security"
+  }
 }
