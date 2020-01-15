@@ -1,4 +1,4 @@
-var mathlib = require('./src/index.js');
+var mathlib = require('../src/index.js');
 
 
 describe('sum', function () {
